@@ -28,6 +28,7 @@ print("The number of words are in the file is ",num)
 ```/
 
 ### OUTPUT:
+![word count](https://user-images.githubusercontent.com/121418418/215333475-616f75e4-c791-43de-80cc-c22aef4b9c68.png)
 
 
 
