@@ -18,14 +18,15 @@ You can refine the count by clearing the string prior t splitting or validatting
 ### Step 6: 
 
 ## PROGRAM:
-/```
-num=0
-with open("git.txt","r") as f1:
-    for i in f1:
-        word=i.split()
-        num += len(word)
-print("The number of words are in the file is ",num)
-```/
+```python
+import sys
+count= 0
+with open(sys.argv[1],'r') as f1:
+    for line in f1:
+        word= line.split()
+        count += len(word)
+print("word count in file = ",count)
+```
 
 ### OUTPUT:
 ![word count](https://user-images.githubusercontent.com/121418418/215333475-616f75e4-c791-43de-80cc-c22aef4b9c68.png)
